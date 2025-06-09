@@ -188,3 +188,111 @@
   }
 
 */
+
+/* Added custom variables */
+:root {
+  --custom-action-color:          #4D6B75;
+  --custom-action-color-contrast: #fff;
+}
+
+/* Override CSS variables */
+:root {
+  --primary-color:                       #48675a;
+  --primary-color-rgb:                   72, 103, 90;
+  --secondary-color:                     #c3cacc;
+  --default-link-color:                  #8d1c60;
+
+  --button-background-color:               var(--custom-action-color);
+  --button-text-color:                     var(--custom-action-color-contrast);
+  --fab-button-primary-background-color:   var(--custom-action-color);
+  --fab-button-primary-icon-color:         var(--custom-action-color-contrast);
+  --outline-button-color:                  #18495a;
+
+  --font-stack-home-banner: var(--font-stack-tei);
+}
+
+ion-app[class][class] {
+  --side-menu-text-color:                        #000;
+  --side-menu-background-color:                 #A3B4BD; // #18495a;
+  --side-menu-divider-color:                    #8fa7af; // #285766;
+  --side-menu-hover-color:                       #18495a;
+  --side-menu-collection-title-background-color: #7195a1;
+  --side-menu-back-button-text-color:            var(--side-menu-text-color);
+  --side-menu-back-button-background-color:      var(--side-menu-background-color);
+  --side-menu-selected-font-weight:              bold;
+  --side-menu-selected-background-color:         #d2d9dd;
+}
+
+page-home {
+  .banner.banner {
+    @media screen and (min-width: 1900px) {
+      height: 75%;
+    }
+
+    .title-wrapper {
+      .banner-title,
+      .banner-subtitle {
+        background-color: transparent;
+        opacity: unset;
+        text-shadow: #fff 1px 0 10px, #fff 0 0 10px, #fff 0 0 15px, #fff 0 0 15px, #fff 0 0 20px, #fff 0 0 50px;
+      }
+    }
+  }
+}
+
+page-elastic-search[class][class] {
+  --date-histogram-year-in-range-color: #c71a23;
+}
+
+page-elastic-search {
+  .info.markdown {
+    /* Sökinstruktionerna i avancerade sökningen */
+    details {
+      padding: .5em .5em 0;
+
+      ul li {
+        line-height: 1.5;
+      }
+
+      ul li + li {
+        padding-top: 0.75em;
+      }
+    }
+
+    summary {
+      font-weight: bold;
+      margin: -.5em -.5em 0;
+      padding: .5em;
+    }
+
+    details[open] {
+      border-bottom: 1px solid #aaa;
+      padding: .5em;
+
+      summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+      }
+    }
+
+    .query_example {
+      background-color: #fdfdfd;
+      border: 1px solid var(--button-background-color);
+      border-radius: 3px;
+      color: var(--button-background-color);
+      font-family: monospace;
+      font-size: 0.889em;
+      padding: 0.125em 0.25em;
+    }
+  }
+}
+
+/* Cookiebannern */
+a.cky-banner-element {
+  cursor: pointer;
+  text-decoration: underline;
+}
+#cky-consent,
+#cky-settings-popup {
+	font-family: var(--font-stack-app-base);
+}
