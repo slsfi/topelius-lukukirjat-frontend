@@ -3,9 +3,9 @@ type Config = { [key: string]: any }
 export const config: Config = {
   app: {
     siteURLOrigin: "https://granska-lukukirjat.sls.fi",
-    projectNameDB: "topelius",
-    projectId: 10,
-    backendBaseURL: "https://api.sls.fi/digitaledition",
+    projectNameDB: "lukukirjat",
+    projectId: 1,
+    backendBaseURL: "https://testa-lukukirjat-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
@@ -58,12 +58,10 @@ export const config: Config = {
       introduction: []
     },
     highlightSearchMatches: true,
-    inlineIllustrations: [206],
-    mediaCollectionMappings: { 214: 44, 206: 19, 218: 19 },
+    inlineIllustrations: [1, 2],
+    mediaCollectionMappings: {},
     order: [
-      [216, 219, 220, 218, 210, 208, 207, 214, 203, 213,
-        202, 199, 221, 206, 201, 211, 200, 205, 215, 217,
-        204, 212, 209]
+      [1, 2]
     ]
   },
   ebooks: [],
@@ -166,7 +164,7 @@ export const config: Config = {
         },
         orientationPortrait: false,
         alternateSources: [],
-        URL: "assets/images/lukukirjat-banner2.jpg"
+        URL: "assets/images/lukukirjat-banner.jpg"
       },
       portraitOrientationSettings: {
         imagePlacement: {
