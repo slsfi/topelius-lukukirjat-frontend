@@ -9,7 +9,6 @@ export const config: Config = {
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
-        { code: "sv", label: "Svenska", region: "FI" },
         { code: "fi", label: "Suomi", region: "FI" }
       ],
       defaultLanguage: "fi",
@@ -272,7 +271,7 @@ export const config: Config = {
       showContentButton: false,
       showElasticSearchButton: true,
       showURNButton: false,
-      showLanguageButton: true,
+      showLanguageButton: false,
       showSiteLogo: false,
       siteLogoDefaultImageURL: "assets/images/logo/SLS_logo_full_white_346x112.png",
       siteLogoMobileImageURL: "assets/images/logo/SLS_logo_symbol_white_112x112.png",
