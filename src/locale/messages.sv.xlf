@@ -939,7 +939,7 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Innehåll</target>
+        <target>Läseböckerna</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
@@ -1545,7 +1545,7 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>En generell beskrivning av webbplatsen för sökmotorer.</target>
+        <target>Digitala utgåvor av Topelius Luonnonkirja ja Maamme kirja.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
@@ -1581,7 +1581,7 @@
     <unit id="TopMenu.Content">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Innehåll</target>
+        <target>Läseböckerna</target>
       </segment>
     </unit>
     <unit id="TopMenu.Home">

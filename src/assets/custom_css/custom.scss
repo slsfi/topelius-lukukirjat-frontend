@@ -234,7 +234,7 @@ page-home {
       .banner-subtitle {
         background-color: transparent;
         opacity: unset;
-        text-shadow: #fff 1px 0 10px, #fff 0 0 10px, #fff 0 0 15px, #fff 0 0 15px, #fff 0 0 20px, #fff 0 0 50px;
+        text-shadow: #fff 1px 0 10px, #fff 0 0 10px, #fff 0 0 15px, #fff 0 0 15px, #fff 0 0 20px, #fff 0 0 20px, #fff 0 0 50px;
       }
     }
   }
@@ -259,7 +259,7 @@ page-home {
         justify-content: center;
         align-items: center;
         gap: 60px;
-        margin: 5rem auto 3rem auto;
+        margin: 2rem auto 5rem auto;
       }
     }
 
@@ -368,6 +368,12 @@ reading-text div.tei {
     .expanded {
       font-style: normal;
     }
+  }
+
+  img.tei.est_figure_graphic.align_figure_inline {
+    padding-right: 0;
+    float: unset;
+    vertical-align: bottom;
   }
 }
 

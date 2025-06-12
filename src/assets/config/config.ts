@@ -2,7 +2,7 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://granska-lukukirjat.sls.fi",
+    siteURLOrigin: "https://testa-lukukirjat.sls.fi",
     projectNameDB: "lukukirjat",
     projectId: 1,
     backendBaseURL: "https://testa-lukukirjat-api.sls.fi/digitaledition",
@@ -22,27 +22,27 @@ export const config: Config = {
       enabled: true,
       image: {
         sv: {
-          altText: "alt-text",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Svartvit teckning av ett bergigt älvlandskap, i förgrunden mörka granar, i bakgrunden en by och en kyrka vid vattnet mellan bergen.",
+          URL: "assets/images/open-graph/topelius-lukukirjat-open-graph-banner-1750x915.jpg"
         },
         fi: {
-          altText: "alt-teksti",
-          URL: "assets/images/home-page-banner.jpg"
+          altText: "Mustavalkoinen piirros vuoristoisesta jokimaisemasta, etualalla tummia kuusia, taustalla kylä ja kirkko veden äärellä vuorten välissä.",
+          URL: "assets/images/open-graph/topelius-lukukirjat-open-graph-banner-1750x915.jpg"
         }
       }
     },
     prebuild: {
-      sitemap: true,
-      staticCollectionMenus: true
+      sitemap: false,
+      staticCollectionMenus: false
     },
     ssr: {
       collectionSideMenu: false
     }
   },
   collections: {
-    addTEIClassNames: true,
+    addTEIClassNames: false,
     replaceImageAssetsPaths: false,
-    enableLegacyIDs: true,
+    enableLegacyIDs: false,
     enableMathJax: false,
     firstTextItem: {},
     frontMatterPages: {
@@ -71,10 +71,10 @@ export const config: Config = {
     },
     elasticSearch: {
       enableFilters: true,
-      enableSortOptions: true,
-      filterGroupsOpenByDefault: ["Years", "Type", "Genre", "Collection"],
+      enableSortOptions: false,
+      filterGroupsOpenByDefault: ["Type", "Collection"],
       hitsPerPage: 15,
-      indices: ["topelius"],
+      indices: ["lukukirjat"],
       openReadingTextWithComments: false,
       textHighlightFragmentSize: 150,
       textHighlightType: "fvh",
@@ -88,29 +88,15 @@ export const config: Config = {
         },
         {
           terms: {
-            published: ["2"]
+            published: ["1", "2"]
           }
         }
       ],
       additionalSourceFields: [],
       aggregations: {
-        Years: {
-          date_histogram: {
-            field: "orig_date_sort",
-            calendar_interval: "year",
-            format: "yyyy"
-          }
-        },
         Type: {
           terms: {
             field: "text_type",
-            size: 40,
-            order: {_key: "asc"}
-          }
-        },
-        Genre: {
-          terms: {
-            field: "publication_data.genre.keyword",
             size: 40,
             order: {_key: "asc"}
           }
@@ -120,30 +106,6 @@ export const config: Config = {
             field: "publication_data.collection_name.keyword",
             size: 40,
             order: {_key: "asc"}
-          }
-        },
-        LetterSenderName: {
-          terms: {
-            field: "sender_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterReceiverName: {
-          terms: {
-            field: "receiver_subject_name.keyword",
-            size: 100
-          }
-        },
-        LetterSenderLocation: {
-          terms: {
-            field: "sender_location_name.keyword",
-            size: 50
-          }
-        },
-        LetterReceiverLocation: {
-          terms: {
-            field: "receiver_location_name.keyword",
-            size: 50
           }
         }
       }
@@ -155,16 +117,16 @@ export const config: Config = {
     home: {
       bannerImage: {
         altTexts: {
-          sv: "Porträtt av Zacharias Topelius",
-          fi: "Zacharias Topeliuksen muotokuva"
+          sv: "Svartvit teckning av ett bergigt älvlandskap, i förgrunden mörka granar, i bakgrunden en by och en kyrka vid vattnet mellan bergen.",
+          fi: "Mustavalkoinen piirros vuoristoisesta jokimaisemasta, etualalla tummia kuusia, taustalla kylä ja kirkko veden äärellä vuorten välissä."
         },
         intrinsicSize: {
-          height: null,
-          width: null
+          height: 1024,
+          width: 1536
         },
         orientationPortrait: false,
         alternateSources: [],
-        URL: "assets/images/lukukirjat-banner.jpg"
+        URL: "assets/images/lukukirjat-banner-1536x1024.jpg"
       },
       portraitOrientationSettings: {
         imagePlacement: {
@@ -204,11 +166,11 @@ export const config: Config = {
       showURNButton: true,
       showViewOptionsButton: true,
       viewOptions: {
-        personInfo: true,
+        personInfo: false,
         placeInfo: false,
-        workInfo: true,
+        workInfo: false,
         paragraphNumbering: true,
-        pageBreakEdition: true
+        pageBreakEdition: false
       }
     },
     mediaCollection: {
@@ -225,7 +187,7 @@ export const config: Config = {
         personInfo: false,
         placeInfo: false,
         emendations: true,
-        normalisations: true,
+        normalisations: false,
         workInfo: false,
         abbreviations: false,
         paragraphNumbering: true,
