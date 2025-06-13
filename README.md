@@ -1,4 +1,4 @@
-# Granska frontend of the digital edition Topeliuksen lukukirjat, testa-lukukirjat.sls.fi
+# Testa frontend of the digital edition Topeliuksen lukukirjat, testa-lukukirjat.sls.fi
 
 This branch contains the "testa" frontend app of the digital edition Topeliuksen lukukirjat, <https://testa-lukukirjat.sls.fi/>. It is based on [`digital-edition-frontend-ng`][digital-edition-frontend-ng], the frontend app of the [SLS][SLS] platform for building digital edition web apps.
 
