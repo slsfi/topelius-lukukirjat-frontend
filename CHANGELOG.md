@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Set up basic configuration.
+
 
 
 ## [1.7.0] – 2025-06-07
