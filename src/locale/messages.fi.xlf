@@ -225,7 +225,7 @@
     <unit id="Commentary.Commentary">
       <segment state="initial">
         <source>Kommentar</source>
-        <target>Kommentaari</target>
+        <target>Kommentit</target>
       </segment>
     </unit>
     <unit id="Commentary.Error">
@@ -939,7 +939,7 @@
     <unit id="MainSideMenu.CollectionsGroup1">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Sisältö</target>
+        <target>Lukukirjat</target>
       </segment>
     </unit>
     <unit id="MainSideMenu.CollectionsGroup2">
@@ -1545,19 +1545,19 @@
     <unit id="Site.MetaDescription.Home">
       <segment state="initial">
         <source>En generell beskrivning av webbplatsen för sökmotorer.</source>
-        <target>Yleinen kuvaus sivustosta hakukoneita varten.</target>
+        <target>Luonnonkirjan ja Maamme kirjan digitaaliset editiot avaavat Topeliuksen lukukirjojen sisällön ja historian kommentaarien ja uudistettujen painosten kautta.</target>
       </segment>
     </unit>
     <unit id="Site.Subtitle">
       <segment state="initial">
         <source>Webbplatsens undertitel</source>
-        <target>Sivuston alaotsikko</target>
+        <target>Luonnonkirja &amp; Maamme kirja</target>
       </segment>
     </unit>
     <unit id="Site.Title">
       <segment state="initial">
         <source>Webbplatsens titel</source>
-        <target>Sivuston otsikko</target>
+        <target>Topeliuksen lukukirjat</target>
       </segment>
     </unit>
     <unit id="TopMenu.About">
@@ -1581,7 +1581,7 @@
     <unit id="TopMenu.Content">
       <segment state="initial">
         <source>Innehåll</source>
-        <target>Sisältö</target>
+        <target>Lukukirjat</target>
       </segment>
     </unit>
     <unit id="TopMenu.Home">
@@ -1611,61 +1611,61 @@
     <unit id="Variants.ChangeVariant">
       <segment state="initial">
         <source>Byt variant</source>
-        <target>Vaihda varianttia</target>
+        <target>Vaihda versiota</target>
       </segment>
     </unit>
     <unit id="Variants.Error">
       <segment state="initial">
         <source>Ett fel har uppstått. Varianter kunde inte laddas.</source>
-        <target>Varianttien lataus epäonnistui.</target>
+        <target>Versioiden lataus epäonnistui.</target>
       </segment>
     </unit>
     <unit id="Variants.None">
       <segment state="initial">
         <source>Inga tryckta varianter tillgängliga.</source>
-        <target>Painettuja variantteja ei ole saatavilla.</target>
+        <target>Versioita ei ole saatavilla.</target>
       </segment>
     </unit>
     <unit id="Variants.OpenNewVariant">
       <segment state="initial">
         <source>Öppna ny variant</source>
-        <target>Avaa uusi variantti</target>
+        <target>Avaa uusi versio</target>
       </segment>
     </unit>
     <unit id="Variants.OpenNewVariantDialogSubtitle">
       <segment state="initial">
         <source>Varianten öppnas i en ny kolumn.</source>
-        <target>Variantti avautuu uuteen sarakkeeseen.</target>
+        <target>Versio avautuu uuteen sarakkeeseen.</target>
       </segment>
     </unit>
     <unit id="Variants.OpenNewVariantDialogTitle">
       <segment state="initial">
         <source>Välj variant</source>
-        <target>Valitse variantti</target>
+        <target>Valitse versio</target>
       </segment>
     </unit>
     <unit id="Variants.SelectVariantDialogSubtitle">
       <segment state="initial">
         <source>Varianten ersätter den variant som visas i kolumnen där du klickade.</source>
-        <target>Valittu variantti korvaa sarakkeen variantin.</target>
+        <target>Valittu versio korvaa sarakkeen variantin.</target>
       </segment>
     </unit>
     <unit id="Variants.SelectVariantDialogTitle">
       <segment state="initial">
         <source>Välj variant</source>
-        <target>Valitse variantti</target>
+        <target>Valitse versio</target>
       </segment>
     </unit>
     <unit id="Variants.Variant">
       <segment state="initial">
         <source>Tryckt variant</source>
-        <target>Painettu variantti</target>
+        <target>Versiot</target>
       </segment>
     </unit>
     <unit id="Variants.VariantCategory">
       <segment state="initial">
         <source>Variantkategori</source>
-        <target>Varianttikategoria</target>
+        <target>Variantin tyyppi</target>
       </segment>
     </unit>
     <unit id="ViewOptions.Abbreviation">
@@ -1689,13 +1689,13 @@
     <unit id="ViewOptions.Emendation">
       <segment state="initial">
         <source>Utgivarändring</source>
-        <target>Toimittajan tekemä muutos</target>
+        <target>Tekstiin tehty muutos</target>
       </segment>
     </unit>
     <unit id="ViewOptions.Emendations">
       <segment state="initial">
         <source>Utgivarens ändringar</source>
-        <target>Toimittajan tekemät muutokset</target>
+        <target>Tekstiin tehdyt muutokset</target>
       </segment>
     </unit>
     <unit id="ViewOptions.ExplanatoryNote">
@@ -1749,13 +1749,13 @@
     <unit id="ViewOptions.PageBreakOriginal">
       <segment state="initial">
         <source>Sidnummer, original</source>
-        <target>Alkuteoksen sivunumerot</target>
+        <target>Sivunumerot</target>
       </segment>
     </unit>
     <unit id="ViewOptions.ParagraphNumbering">
       <segment state="initial">
         <source>Stycke-/radnumrering</source>
-        <target>Kappale-/rivinumerointi</target>
+        <target>Kappalenumerot</target>
       </segment>
     </unit>
     <unit id="ViewOptions.PersonInfo">

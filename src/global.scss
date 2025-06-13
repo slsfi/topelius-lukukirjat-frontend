@@ -23,8 +23,8 @@
  */
 @import "./theme/font-face/roboto";
 @import "./theme/font-face/source-serif";
-@import "./theme/font-face/mulish";
-@import "./theme/font-face/inter";
+// @import "./theme/font-face/mulish";
+// @import "./theme/font-face/inter";
 
 
 /* CSS and Sass variables. */
@@ -87,7 +87,7 @@
 // TEI styles for the collection comments component.
 @import "./theme/TEI/tei-comments";
 // TEI styles for the collection manuscripts component.
-@import "./theme/TEI/tei-manuscripts";
+// @import "./theme/TEI/tei-manuscripts";
 // TEI styles for the collection variants component.
 @import "./theme/TEI/tei-variants";
 

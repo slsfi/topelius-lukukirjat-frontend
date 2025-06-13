@@ -15,10 +15,6 @@
           "fi": {
             "baseHref": "fi/",
             "translation": "src/locale/messages.fi.xlf"
-          },
-          "sv": {
-            "baseHref": "sv/",
-            "translation": "src/locale/messages.sv.xlf"
           }
         }
       },
@@ -26,7 +22,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "localize": ["sv", "fi"],
+            "localize": ["fi"],
             "outputPath": "dist/app/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -106,12 +102,6 @@
               "localize": [
                 "fi"
               ]
-            },
-            "sv": {
-              "deleteOutputPath": false,
-              "localize": [
-                "sv"
-              ]
             }
           },
           "defaultConfiguration": "development"
@@ -127,9 +117,6 @@
             },
             "fi": {
               "buildTarget": "app:build:development,fi"
-            },
-            "sv": {
-              "buildTarget": "app:build:development,sv"
             }
           },
           "defaultConfiguration": "development"
@@ -232,12 +219,6 @@
               "buildOptimizer": false
             },
             "ci": {},
-            "sv": {
-              "localize": [
-                "sv"
-              ],
-              "deleteOutputPath": false
-            },
             "fi": {
               "localize": [
                 "fi"
@@ -276,14 +257,6 @@
             "development": {
               "browserTarget": "app:build:development",
               "serverTarget": "app:server:development"
-            },
-            "sv": {
-              "browserTarget": "app:build:production,sv",
-              "serverTarget": "app:server:production,sv",
-              "routes": [
-                "/"
-              ],
-              "discoverRoutes": false
             },
             "fi": {
               "browserTarget": "app:build:production,fi",
