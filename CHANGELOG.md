@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.7.0-testa.1] – 2025-06-13
+
 ### Changed
 
-- Set up basic configuration.
+- Set up basic configuration. ([78357f8](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/78357f807879b9f09301f107dbfa107e1ce1af7f))
 
 
 
@@ -744,3 +748,5 @@ siteLogoDimensions: {
 [1.0.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
+
+[1.7.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/releases/tag/1.7.0-testa.1
