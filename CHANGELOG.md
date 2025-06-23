@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 ### Changed
 
 - Update to base version [`1.8.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.0) from upstream, original repository.
+- Update config and translations.
 
 
 
