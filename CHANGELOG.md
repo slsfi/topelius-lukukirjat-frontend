@@ -10,8 +10,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Changed
 
-- Update to base version [`1.8.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.0) from upstream, original repository.
+- Update to base version [`1.8.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.1) from upstream, original repository.
 - Update config and translations.
+
+
+
+## [1.8.1] – 2025-06-23
+
+### Fixed
+
+- Error messages on failed loading of foreword and introduction pages. ([7abca16](https://github.com/slsfi/digital-edition-frontend-ng/commit/7abca16296c4505848776374e756379d06ae73c1))
+- Title of explanatory notes in the info-overlay component on the collection text page. ([2b3d5ba](https://github.com/slsfi/digital-edition-frontend-ng/commit/2b3d5ba9e9ebdc572534c549ad6b3b54379b8564))
 
 
 
@@ -774,7 +783,8 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.0...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.1...HEAD
+[1.8.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.0...1.8.1
 [1.8.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.7.0...1.8.0
 [1.7.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.6.5...1.7.0
 [1.6.5]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.6.4...1.6.5
