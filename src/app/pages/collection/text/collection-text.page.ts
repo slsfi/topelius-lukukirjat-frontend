@@ -190,8 +190,11 @@ export class CollectionTextPage implements OnDestroy, OnInit {
         parsedViews.forEach((viewObj: any) => {
           const cachedViewObj: any = { type: viewObj.type };
           if (
-            viewObj.type === 'variants' &&
-            viewObj.sortOrder
+            viewObj.sortOrder &&
+            (
+              viewObj.type === 'variants' ||
+              viewObj.type === 'facsimiles'
+            )
           ) {
             cachedViewObj.sortOrder = viewObj.sortOrder;
           }
@@ -661,8 +664,20 @@ export class CollectionTextPage implements OnDestroy, OnInit {
 
         eventTarget = this.getEventTarget(event);
         if (
-          eventTarget.classList.contains('variantScrollTarget') ||
-          eventTarget.classList.contains('anchorScrollTarget')
+          (
+            eventTarget.classList.contains('variantScrollTarget') ||
+            eventTarget.classList.contains('anchorScrollTarget')
+          ) &&
+          (
+            this.viewOptionsService.selectedVariationType === 'all' ||
+            (
+              this.viewOptionsService.selectedVariationType === 'sub' &&
+              (
+                eventTarget.classList.contains('substantial') ||
+                eventTarget.classList.contains('lemma')
+              )
+            )
+          )
         ) {
           // Click on variant lemma --> highlight and scroll all variant columns
           // in desktop mode; display variant info in infoOverlay in mobile mode.
@@ -1045,7 +1060,10 @@ export class CollectionTextPage implements OnDestroy, OnInit {
               this.ngZone.run(() => {
                 this.showTooltipFromInlineHtml(eventTarget);
               });
-            } else if (eventTarget['classList'].contains('ttVariant')) {
+            } else if (
+              eventTarget['classList'].contains('ttVariant') &&
+              this.viewOptionsService.selectedVariationType !== 'none'
+            ) {
               this.ngZone.run(() => {
                 this.showVariantTooltip(eventTarget);
               });
@@ -1184,6 +1202,12 @@ export class CollectionTextPage implements OnDestroy, OnInit {
   }
 
   private showVariantTooltip(targetElem: HTMLElement) {
+    if (
+      this.viewOptionsService.selectedVariationType === 'sub' &&
+      !targetElem.classList.contains('substantial')
+    ) {
+      return;
+    }
     if (
       targetElem.nextElementSibling?.classList.contains('tooltip') &&
       targetElem.nextElementSibling?.textContent
