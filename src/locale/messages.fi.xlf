@@ -219,13 +219,13 @@
     <unit id="CollectionTitle.None">
       <segment state="initial">
         <source>Titelbladet kunde inte laddas.</source>
-        <target>Nimiölehden lataus epäonnistui.</target>
+        <target>Julkaisutietojen lataus epäonnistui.</target>
       </segment>
     </unit>
     <unit id="CollectionTitle.TitlePage">
       <segment state="initial">
         <source>Titelblad</source>
-        <target>Nimiölehti</target>
+        <target>Julkaisutiedot</target>
       </segment>
     </unit>
     <unit id="Commentary.Commentary">

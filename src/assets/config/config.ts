@@ -194,7 +194,7 @@ export const config: Config = {
         pageBreakEdition: false
       },
       variantViewOptions: {
-        showVariationTypeOption: false,
+        showVariationTypeOption: true,
         defaultVariationType: "all"
       },
       viewTypes: {
@@ -264,7 +264,7 @@ export const config: Config = {
         indexPlaces: false,
         indexWorks: false
       },
-      defaultExpanded: false
+      defaultExpanded: true
     },
     manuscripts: {
       showTitle: true,
