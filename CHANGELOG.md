@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update to base version [`1.8.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.2) from upstream, original repository.
+
 
 
 ## [1.8.1-testa.1] – 2025-06-23
@@ -16,6 +20,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Update to base version [`1.8.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.1) from upstream, original repository. ([d1869ff](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/d1869ff4b821fa04af6efade885f040a4075c891), [79c6107](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/79c6107d3d8121832cc159b495d0f2f5c90b1b8f))
 - Update config and translations. ([47cc606](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/47cc6064a8e050a61ebfbd2fc2c40a12105f236e))
+
+
+
+## [1.8.2] – 2025-06-24
+
+### Fixed
+
+- Extraction of introduction table of contents when HTML contains newlines. ([c6c22c2](https://github.com/slsfi/digital-edition-frontend-ng/commit/c6c22c25bc5a10a7c857cea3d0dbe3f4e6e35742))
+- Document title on positioned introduction page. ([f8469b1](https://github.com/slsfi/digital-edition-frontend-ng/commit/f8469b16a32032d2f6ef8c5478a13c45847b8636))
+- Handle missing collection table of contents gracefully. ([cab4d0c](https://github.com/slsfi/digital-edition-frontend-ng/commit/cab4d0c58d13d8195a328ca3ec4b349ff2415ae6))
+
+### Changed
+
+- Improve readability and performance of the collection side menu component. ([7066ef1](https://github.com/slsfi/digital-edition-frontend-ng/commit/7066ef10adbdfd9dc5b082b3086e28e9abe9de76))
+- Improve readability and performance of the main side menu component. ([d9f46ee](https://github.com/slsfi/digital-edition-frontend-ng/commit/d9f46eea181bd4c138edd1a97c0702398c5ea554))
 
 
 
@@ -787,7 +806,8 @@ siteLogoDimensions: {
 
 
 
-[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.1...HEAD
+[unreleased]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.2...HEAD
+[1.8.2]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.1...1.8.2
 [1.8.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.8.0...1.8.1
 [1.8.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.7.0...1.8.0
 [1.7.0]: https://github.com/slsfi/digital-edition-frontend-ng/compare/1.6.5...1.7.0
