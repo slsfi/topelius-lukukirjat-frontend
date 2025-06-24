@@ -8,18 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
-### Changed
-
-- Update to base version [`1.8.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.2) from upstream, original repository.
 
 
-
-## [1.8.1-testa.1] – 2025-06-23
+## [1.8.2-testa.1] – 2025-06-24
 
 ### Changed
 
-- Update to base version [`1.8.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.1) from upstream, original repository. ([d1869ff](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/d1869ff4b821fa04af6efade885f040a4075c891), [79c6107](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/79c6107d3d8121832cc159b495d0f2f5c90b1b8f))
-- Update config and translations. ([47cc606](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/47cc6064a8e050a61ebfbd2fc2c40a12105f236e))
+- Update to base version [`1.8.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.2) from upstream, original repository. ([a566840](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/a5668401f88079fc82e8e0839f57c752d100df24))
 
 
 
@@ -35,6 +30,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 - Improve readability and performance of the collection side menu component. ([7066ef1](https://github.com/slsfi/digital-edition-frontend-ng/commit/7066ef10adbdfd9dc5b082b3086e28e9abe9de76))
 - Improve readability and performance of the main side menu component. ([d9f46ee](https://github.com/slsfi/digital-edition-frontend-ng/commit/d9f46eea181bd4c138edd1a97c0702398c5ea554))
+
+
+
+## [1.8.1-testa.1] – 2025-06-23
+
+### Changed
+
+- Update to base version [`1.8.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/1.8.1) from upstream, original repository. ([d1869ff](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/d1869ff4b821fa04af6efade885f040a4075c891), [79c6107](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/79c6107d3d8121832cc159b495d0f2f5c90b1b8f))
+- Update config and translations. ([47cc606](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/47cc6064a8e050a61ebfbd2fc2c40a12105f236e))
 
 
 
@@ -847,5 +851,6 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.8.2-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.1-testa.1...1.8.2-testa.1
 [1.8.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.7.0-testa.1...1.8.1-testa.1
 [1.7.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/releases/tag/1.7.0-testa.1
