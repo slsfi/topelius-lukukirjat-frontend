@@ -377,6 +377,23 @@ reading-text div.tei {
   }
 }
 
+page-title div.tei {
+  p {
+    &.titleAuthor,
+    &.subtitle {
+      font-size: 1.4706em;
+      font-style: normal;
+      text-align: center;
+      text-indent: 0;
+      text-transform: none;
+    }
+
+    &.titleAuthor {
+      margin-top: 2em;
+    }
+  }
+}
+
 /* Cookiebannern */
 a.cky-banner-element {
   cursor: pointer;

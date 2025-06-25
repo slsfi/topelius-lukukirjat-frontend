@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update custom CSS for title pages.
+
 
 
 ## [1.8.2-testa.1] – 2025-06-24
