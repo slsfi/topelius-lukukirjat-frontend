@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+### Changed
+
+- Update custom CSS.
+
 
 
 ## [1.8.2-testa.2] – 2025-06-25

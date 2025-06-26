@@ -370,10 +370,15 @@ reading-text div.tei {
     }
   }
 
-  img.tei.est_figure_graphic.align_figure_inline {
-    padding-right: 0;
-    float: unset;
-    vertical-align: bottom;
+  img.tei.est_figure_graphic {
+    &.align_figure_inline {
+      padding-right: 0;
+      float: unset;
+      vertical-align: bottom;
+    }
+    &.unfloat {
+      float: unset;
+    }
   }
 }
 
