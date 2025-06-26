@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [1.8.2-testa.3] – 2025-06-26
+
 ### Changed
 
-- Update custom CSS.
-- Update Maamme kirja illustration images.
+- Update custom CSS. ([a488fc8](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/a488fc8f1c088dedd04c268ea6ce064586f521be))
+- Update Maamme kirja illustration images. ([bafe6c3](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/bafe6c3f845c266e88c3c668c83b5097ac526776))
 
 
 
@@ -864,6 +868,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[1.8.2-testa.3]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.2-testa.2...1.8.2-testa.3
 [1.8.2-testa.2]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.2-testa.1...1.8.2-testa.2
 [1.8.2-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.1-testa.1...1.8.2-testa.1
 [1.8.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.7.0-testa.1...1.8.1-testa.1
