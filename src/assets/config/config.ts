@@ -38,6 +38,7 @@ export const config: Config = {
       collectionSideMenu: false
     }
   },
+  articles: [],
   collections: {
     addTEIClassNames: false,
     replaceImageAssetsPaths: false,
@@ -67,6 +68,10 @@ export const config: Config = {
   page: {
     about: {
       initialPageNode: "01-01"
+    },
+    article: {
+      showTextDownloadButton: false,
+      showURNButton: false
     },
     elasticSearch: {
       enableFilters: true,
@@ -234,6 +239,7 @@ export const config: Config = {
       categoricalSortingSecondaryKey: ""
     },
     contentGrid: {
+      includeArticles: false,
       includeEbooks: false,
       includeMediaCollection: false,
       mediaCollectionCoverURL: "",
@@ -250,6 +256,7 @@ export const config: Config = {
     mainSideMenu: {
       items: {
         about: true,
+        articles: false,
         ebooks: false,
         collections: true,
         mediaCollections: false,
