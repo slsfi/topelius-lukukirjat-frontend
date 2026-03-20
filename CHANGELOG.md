@@ -10,16 +10,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ### Changed
 
-- Update to base version [`2.6.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.2) from upstream, original repository.
-- Enable feature based routes and separate cookie policy page in config.
+- Update to base version [`2.6.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.2) from upstream, original repository. ([8a82132](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/8a82132822cdb42b1cb17472ca77a3660791398e))
+- Enable feature based routes and separate cookie policy page in config. ([665d8d1](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/665d8d13112b22998a636ff587c9b7e5ed343bb1))
 
 ### Fixed
 
-- Badge URLs in `README.md`.
+- Badge URLs in `README.md`. ([5b4ec42](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/5b4ec42c220c2216ce4d093344dae4a84f8b75be))
 
 ### Removed
 
-- Cookie banner CSS from `custom.scss`.
+- Cookie banner CSS from `custom.scss`. ([b524330](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/b524330911009a8f65b4dd03481a0433c4fa9206))
 
 
 
@@ -1437,6 +1437,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[2.6.2-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.4.6-testa.1...2.6.2-testa.1
 [2.4.6-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.0.0-testa.1...2.4.6-testa.1
 [2.0.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.2-testa.3...2.0.0-testa.1
 [1.8.2-testa.3]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/1.8.2-testa.2...1.8.2-testa.3
