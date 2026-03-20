@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [2.6.2-testa.1] – 2026-03-20
+
 ### Changed
 
 - Update to base version [`2.6.2`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/2.6.2) from upstream, original repository. ([8a82132](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/8a82132822cdb42b1cb17472ca77a3660791398e))
