@@ -1,6 +1,6 @@
 {
   "name": "testa-lukukirjat.sls.fi",
-  "version": "2.6.2-testa.1",
+  "version": "2.6.5-testa.1",
   "description": "Frontend of granska-lukukirjat.sls.fi based on the Angular web app for the SLS Digital Edition Platform",
   "homepage": "https://github.com/slsfi/topelius-lukukirjat-frontend/tree/granska#readme",
   "license": "MIT",
