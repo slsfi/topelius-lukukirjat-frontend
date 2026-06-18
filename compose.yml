@@ -13,7 +13,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ghcr.io/slsfi/topelius-lukukirjat-frontend:2.7.0-testa.1
+    image: ghcr.io/slsfi/topelius-lukukirjat-frontend:2.7.5-testa.1
     restart: unless-stopped
     volumes:
       - browser-static:/digital-edition-frontend-ng/dist/app/browser
