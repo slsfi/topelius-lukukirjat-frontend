@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.0.1-testa.1] – 2026-09-09
+
 ### Changed
 
-- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository.
-- Align `custom.scss` with v3.0.0 changes.
+- Update to base version [`3.0.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.0.1) from upstream, original repository. ([1c2f84c](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/1c2f84cec11b6f541c2f8d06b74d96db01d924b5))
+- Align `custom.scss` with v3.0.0 changes. ([bc1c684](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/bc1c684e86c2214168dfab3e95f35f7431ae4d59))
 
 
 
@@ -1752,6 +1756,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.0.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.9-testa.1...3.0.1-testa.1
 [2.7.9-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.5-testa.1...2.7.9-testa.1
 [2.7.5-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.0-testa.1...2.7.5-testa.1
 [2.7.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.6.5-testa.1...2.7.0-testa.1
