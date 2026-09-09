@@ -291,26 +291,17 @@ ion-app[class][class] {
 }
 
 page-home {
+  --banner-title-text-shadow: #fff 1px 0 10px, #fff 0 0 10px, #fff 0 0 15px, #fff 0 0 15px, #fff 0 0 20px, #fff 0 0 20px, #fff 0 0 50px;
+  --text-content-max-width: 890px;
+
   .banner.banner {
     @media screen and (min-width: 1900px) {
       height: 75%;
-    }
-
-    .title-wrapper {
-      .banner-title,
-      .banner-subtitle {
-        background-color: transparent;
-        opacity: unset;
-        text-shadow: #fff 1px 0 10px, #fff 0 0 10px, #fff 0 0 15px, #fff 0 0 15px, #fff 0 0 20px, #fff 0 0 20px, #fff 0 0 50px;
-      }
     }
   }
 
   .text-content {
     div.site-presentation.markdown.markdown {
-      max-width: 890px;
-      text-align: left;
-
       h2 {
         margin-bottom: 2em;
         text-align: center;
@@ -318,8 +309,6 @@ page-home {
     }
 
     footer.footer.markdown.markdown {
-      max-width: 890px;
-
       .publisher-logos {
         display: flex;
         flex-flow: row wrap;
