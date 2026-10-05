@@ -8,9 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [3.1.1-testa.1] – 2026-10-05
+
 ### Changed
 
-- Update to base version [`3.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.1.1) from upstream, original repository.
+- Update to base version [`3.1.1`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/3.1.1) from upstream, original repository. ([92926e2](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/92926e2ac24002471ca0050c2003cf3ec41dda5d))
 
 
 
@@ -1826,6 +1830,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[3.1.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/3.0.1-testa.1...3.1.1-testa.1
 [3.0.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.9-testa.1...3.0.1-testa.1
 [2.7.9-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.5-testa.1...2.7.9-testa.1
 [2.7.5-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.0-testa.1...2.7.5-testa.1
