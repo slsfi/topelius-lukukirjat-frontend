@@ -40,6 +40,7 @@ export const config: Config = {
     },
     ssr: {
       trustProxyHops: 2,
+      trustedProxyAddresses: ["loopback", "linklocal", "uniquelocal"],
       collectionSideMenu: false
     }
   },
@@ -76,6 +77,9 @@ export const config: Config = {
     },
     article: {
       showTextDownloadButton: false,
+      showURNButton: false
+    },
+    ebook: {
       showURNButton: false
     },
     elasticSearch: {
@@ -183,7 +187,7 @@ export const config: Config = {
       }
     },
     mediaCollection: {
-      showURNButton: true
+      showURNButton: false
     },
     text: {
       defaultViews: ["readingtext"],
@@ -275,7 +279,9 @@ export const config: Config = {
         privacyPolicy: false,
         accessibilityStatement: false,
       },
-      defaultExpanded: true
+      defaultExpanded: true,
+      ungroupArticles: false,
+      ungroupIndices: false
     },
     manuscripts: {
       showTitle: true,
