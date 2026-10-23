@@ -8,10 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/), and this
 
 ## Unreleased
 
+
+
+## [4.1.0-testa.1] – 2026-10-23
+
 ### Changed
 
-- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository.
-- Enable static, localized collection cover metadata.
+- Update to base version [`4.1.0`](https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/4.1.0) from upstream, original repository. ([bcf2b24](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/bcf2b246352d9c34c73a05b8847f7581e9a87414))
+- Enable static, localized collection cover metadata. ([6f94c4c](https://github.com/slsfi/topelius-lukukirjat-frontend/commit/6f94c4c77658afd52964b9b7cba4d9721a5e6973))
 
 
 
@@ -1927,6 +1931,7 @@ siteLogoDimensions: {
 [1.0.1]: https://github.com/slsfi/digital-edition-frontend-ng/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/slsfi/digital-edition-frontend-ng/releases/tag/v1.0.0
 
+[4.1.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/4.0.0-testa.1...4.1.0-testa.1
 [4.0.0-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/3.1.1-testa.1...4.0.0-testa.1
 [3.1.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/3.0.1-testa.1...3.1.1-testa.1
 [3.0.1-testa.1]: https://github.com/slsfi/topelius-lukukirjat-frontend/compare/2.7.9-testa.1...3.0.1-testa.1
