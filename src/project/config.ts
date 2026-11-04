@@ -2,10 +2,10 @@ type Config = { [key: string]: any }
 
 export const config: Config = {
   app: {
-    siteURLOrigin: "https://testa-lukukirjat.sls.fi",
+    siteURLOrigin: "https://granska-lukukirjat.sls.fi",
     projectNameDB: "lukukirjat",
     projectId: 1,
-    backendBaseURL: "https://testa-lukukirjat-api.sls.fi/digitaledition",
+    backendBaseURL: "https://granska-lukukirjat-api.sls.fi/digitaledition",
     alternateFacsimileBaseURL: "",
     i18n: {
       languages: [
